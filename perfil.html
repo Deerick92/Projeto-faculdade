@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <meta content="Gerenciamento escolar do Rio de Janeiro" name="descricao" />
+
+    <link href="assets/img/favicon-32x32.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!--  Google fontes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- CSS File principal -->
+    <link rel="stylesheet" href="css/perfil.css" />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/0c863c7eea.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>SIEF - Sistema de integração Escola e Familia</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="logo"></div> 
+      <ul class="menu">
+        
+        <li class="ativo">
+          <a href="#perfil">
+            <i class="fa-solid fa-id-card icones-acessos"></i>
+            <span>Perfil do aluno</span>
+          </a>
+        </li>
+        <li>
+          <a href="#lista">
+            <i class="fa-solid fa-check icones-acessos"></i>
+            <span>Lista de presença</span>
+          </a>
+        </li>
+        <li>
+          <a href="#grade">
+            <i class="fa-solid fa-table-cells-large icones-acessos"></i>
+            <span>Grade escolar</span>
+          </a>
+        </li>
+        <li>
+          <a href="#calendario">
+            <i class="fa-solid fa-calendar-days icones-acessos"></i>
+            <span>Calendario de provas</span>
+          </a>
+        </li>
+        <li>
+          <a href="#boletim">
+            <i class="fa-solid fa-list icones-acessos"></i>
+            <span>Boletim</span>
+          </a>
+        </li>
+        <li>
+          <a href="#gestao">
+            <i class="fa-regular fa-folder-open icones-acessos"></i>
+            <span>Gestão de documentos</span>
+          </a>
+        </li>
+        <li>
+          <a href="#material">
+            <i class="fa-solid fa-book icones-acessos"></i></i>
+            <span>Material de apoio</span>
+          </a>
+        </li>
+        <li>
+          <a href="#chat">
+            <i class="fa-regular fa-message icones-acessos"></i>
+            <span>Chat</span>
+          </a>
+        </li>
+        <li>
+          <a href="#forum">
+            <i class="fa-regular fa-comments icones-acessos"></i>
+            <span>Forúm</span>
+          </a>
+        </li>
+        <li>
+          <a href="#reportar">
+            <i class="fa-solid fa-triangle-exclamation icones-acessos"></i>
+            <span>Reportar incidente</span>
+          </a>
+        </li>
+        <li class="sair">
+          <a href="index.html"><i class="fa-solid fa-right-from-bracket"></i><span>Sair</span></a>
+        </li>
+      </ul>
+    </section>
+
+
+
+    <section class="primeiro-dashboard">
+      <div class="center">
+        <div class="titulo">
+          <img
+          class="logo-dash"
+          src="Imagens/rjbranco.png"
+          alt="Logo da prefeitura do Rio de Janeiro com a escrita de educação ao lado esquerdo"
+        />
+        </div>
+        <div class="usuario">
+          <div class="procurar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Procurar">
+          </div>
+          <img class="logo-usu" src="/Imagens/pessoa1.jpeg" alt="">
+        </div>
+      </div>
+
+      
+
+
+
+       <!-- ======= Perfil ======= -->
+      <div id="perfil" class="perfil">
+        <h3 class="perfil-titulo">Perfil do aluno</h3>
+        <div class="conteudo-perfil">
+          <div class="perfil-um">
+            <img class="logo-usu" src="/Imagens/pessoa2.jpeg" alt="">
+            <span class="nome-aluno">Fulano da silva</span>
+          </div>
+
+          <div class="perfil-dois">
+              <div class="conteiner-titulo">
+                <h3 class="titulo-pd">Dados pessoais</h3>
+              </div>
+              <div class="info">
+                <div class="config">
+                  <h5>Nome:</h5>
+                  <p>Fulano da silva</p>
+                </div>
+                <div class="config">
+                  <h5>CPF:</h5>
+                  <p>000.000.000-98</p>
+                </div>
+                <div class="config">
+                  <h5>Registro Geral:</h5>
+                  <p>000.000-00</p>
+                </div>
+                <div class="config">
+                  <h5>Nome da mãe:</h5>
+                  <p>Beltrana da silva</p>
+                </div>
+                <div class="config">
+                  <h5>Nome do pai:</h5>
+                  <p>Ciclano da silva</p>
+                </div>
+              </div>
+
+              <div class="conteiner-titulo">
+                <h3 class="titulo-pd">Dados adicionais</h3>
+              </div>
+              <div class="info-dois">
+                <div class="config">
+                  <h5>Telefone:</h5>
+                  <p>(21) 99999-9999</p>
+                </div>
+                <div class="config">
+                  <h5>Telefone:</h5>
+                  <p>(21) 99999-9999</p>
+                </div>
+                <div class="config">
+                  <h5>Cep:</h5>
+                  <p>00000-000</p>
+                </div>
+                <div class="config">
+                  <h5>Rua:</h5>
+                  <p>Sem nome</p>
+                </div>
+                <div class="config">
+                  <h5>Número:</h5>
+                  <p>000</p>
+                </div>
+                <div class="config">
+                  <h5>Complemento:</h5>
+                  <p>Não informado</p>
+                </div>
+                <div class="config">
+                  <h5>Estado:</h5>
+                  <p>Rio de janeiro</p>
+                </div>
+                <div class="config">
+                  <h5>Cidade:</h5>
+                  <p>RJ</p>
+                </div>
+              </div>
+
+              <div class="conteiner-titulo">
+                <h3 class="titulo-pd">Informações do aluno</h3>
+              </div>
+              <div class="info-tres">
+                <div class="config">
+                  <h5>Instituição de ensino:</h5>
+                  <p>Evaristo de moraes</p>
+                </div>
+                <div class="config">
+                  <h5>Matricula:</h5>
+                  <p>000000</p>
+                </div>
+                <div class="config">
+                  <h5>Serie:</h5>
+                  <p>9º ano</p>
+                </div>
+                <div class="config">
+                  <h5>Coeficiente de Rendimento:</h5>
+                  <p>98%</p>
+                </div>
+                <div class="config">
+                  <h5>Frequencia:</h5>
+                  <p>87%</p>
+                </div>
+                <div class="config">
+                  <h5>Grupo de estudo:</h5>
+                  <p>Não faz parte de um grupo de estudos</p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div> 
+      <!-- ======= Fim do Perfil ======= -->
+
+      <!-- ======= Lista de presença ======= -->
+      <div id="lista" class="lista">
+        <h3 class="perfil-titulo">Lista de presença</h3>
+        <div class="conteudo-lista-total">
+          <div class="lista-um">
+            <div class="info-lista">
+              <div class="conteudo-lista">
+                <span>Aprovado</span>
+                <div class="barra-progresso-info">
+                  <div class="progresso-verde" style="width: 34%;">
+                  </div>
+                </div>
+              </div>
+              <div class="conteudo-lista">
+                <span>Atenção</span>
+                <div class="barra-progresso-info">
+                  <div class="progresso-amarelo" style="width: 64%;">
+                  </div>
+                </div>
+              </div>
+              <div class="conteudo-lista">
+                <span>Reprovado</span>
+                <div class="barra-progresso-info">
+                  <div class="progresso-vermelho" style="width: 85%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Língua Portuguesa</span>
+              <div class="barra-progresso">
+                <div class="progresso-verde" style="width: 23%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Matemática</span>
+              <div class="barra-progresso">
+                <div class="progresso-amarelo" style="width: 57%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Biologia</span>
+              <div class="barra-progresso">
+                <div class="progresso-verde" style="width: 12%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Química</span>
+              <div class="barra-progresso">
+                <div class="progresso-vermelho" style="width: 89%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Física</span>
+              <div class="barra-progresso">
+                <div class="progresso-amarelo" style="width: 34%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>História</span>
+              <div class="barra-progresso">
+                <div class="progresso-vermelho" style="width: 68%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Geografia</span>
+              <div class="barra-progresso">
+                <div class="progresso-amarelo" style="width: 45%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Inglês</span>
+              <div class="barra-progresso">
+                <div class="progresso-vermelho" style="width: 78%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Espanhol</span>
+              <div class="barra-progresso">
+                <div class="progresso-verde" style="width: 5%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Educação Física</span>
+              <div class="barra-progresso">
+                <div class="progresso-vermelho" style="width: 91%;">
+                </div>
+              </div>
+            </div>
+            <div class="conteudo-lista">
+              <span>Artes</span>
+              <div class="barra-progresso">
+                <div class="progresso-verde" style="width: 29%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendario-freq">
+            <div class="calendario">
+              <div class="mes">
+                <h2>Novembro 2023</h2>
+              </div>
+              <div class="dias-semana">
+                <div>Domingo</div>
+                <div>Segunda</div>
+                <div>Terça</div>
+                <div>Quarta</div>
+                <div>Quinta</div>
+                <div>Sexta</div>
+                <div>Sábado</div>
+              </div>
+              <div class="dias" id="dias-mes">
+              <!-- Os dias do mês serão preenchidos aqui dinamicamente com JavaScript -->
+              </div>
+              <div id="detalhes-dia" class="modal">
+                <div class="modal-content">
+                <span class="fechar">&times;</span>
+                <p id="conteudo-dia"></p>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <!-- ======= Fim Lista de presença ======= --> 
+      <div id="grade" class="lista">
+        <div class="container-grade">
+    <h1>Grade Escolar</h1>
+
+    <table class="grade">
+      <thead>
+        <tr>
+          <th>Horário</th>
+          <th>Seg</th>
+          <th>Ter</th>
+          <th>Quar</th>
+          <th>Qui</th>
+          <th>Sex</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+        </tr>
+        <tr>
+          <td>09:00</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+        </tr>
+        <tr>
+          <td>10:00</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+          <td>Materia</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+      </div>
+      <div id="calendario" class="lista">
+        <div class="container-calendar">
+    <h1>Calendário de Provas - 2023</h1>
+
+    <div class="semester">
+      <h2>Junho</h2>
+      <table class="calendar">
+        <thead>
+          <tr>
+            <th>Domi</th>
+            <th>Seg</th>
+            <th>Ter</th>
+            <th>Qua</th>
+            <th>Qui</th>
+            <th>Sex</th>
+            <th>Sáb</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <!-- Adicione mais linhas conforme necessário -->
+          <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td class="prova-ano">10</td>
+            <td class="prova-ano">11</td>
+            <td class="prova-ano">12</td>
+            <td class="prova-ano">13</td>
+            <td class="prova-ano">14</td>
+            <td class="prova-ano">15</td>
+            <td class="prova-ano">16</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="semester">
+      <h2>Novembro</h2>
+      <table class="calendar">
+        <thead>
+          <tr>
+            <th>Dom</th>
+            <th>Seg</th>
+            <th>Ter</th>
+            <th>Qua</th>
+            <th>Qui</th>
+            <th>Sex</th>
+            <th>Sáb</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td class="prova-ano">20</td>
+            <td class="prova-ano">21</td>
+          </tr>
+          <tr>
+            <td class="prova-ano">22</td>
+            <td class="prova-ano">23</td>
+            <td class="prova-ano">24</td>
+            <td class="prova-ano">25</td>
+            <td class="prova-ano">26</td>
+            <td>27</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+      </div>
+      <div id="boletim" class="lista">
+        <div class="boletim">
+    <h1>Boletim do Aluno</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Matéria</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Matemática</td>
+          <td>8.5</td>
+        </tr>
+        <tr>
+          <td>Português</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td>Ciências</td>
+          <td>7.5</td>
+        </tr>
+        <tr>
+          <td>História</td>
+          <td>8.0</td>
+        </tr>
+        <tr>
+          <td>Geografia</td>
+          <td>7.0</td>
+        </tr>
+        <tr>
+          <td>Inglês</td>
+          <td>9.5</td>
+        </tr>
+        <tr>
+          <td>Arte</td>
+          <td>8.5</td>
+        </tr>
+        <tr>
+          <td>Educação Física</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td>Química</td>
+          <td>7.8</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>8.2</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+      </div>
+
+      <div id="gestao" class="lista">
+        <div class="container">
+    <h1>Gestão de Documentos - Cadastro Escolar</h1>
+
+    <form>
+      <label for="comprovante">Registro geral:</label>
+      <input type="file" id="comprovante" name="comprovante" accept=".pdf, .jpg, .png" required>
+
+      <label for="comprovante">CPF:</label>
+      <input type="file" id="comprovante" name="comprovante" accept=".pdf, .jpg, .png" required>
+
+      <label for="comprovante">Certidão de nascimento:</label>
+      <input type="file" id="comprovante" name="comprovante" accept=".pdf, .jpg, .png" required>
+
+      <label for="comprovante">Comprovante de Residência:</label>
+      <input type="file" id="comprovante" name="comprovante" accept=".pdf, .jpg, .png" required>
+
+      <label for="historico">Histórico Escolar:</label>
+      <input type="file" id="historico" name="historico" accept=".pdf" required>
+
+      <button type="submit">Enviar Documentos</button>
+    </form>
+  </div>
+      </div>
+
+      <div id="material" class="lista">
+        <div class="container-apoio">
+    <h1>Materiais de Apoio para Alunos</h1>
+
+    <div class="material-apoio">
+      <h2>Matemática</h2>
+      <p>Apostila de Álgebra</p>
+      <a href="materiais/algebra.pdf" target="_blank">Baixar Apostila</a>
+    </div>
+
+    <div class="material-apoio">
+      <h2>Português</h2>
+      <p>Gramática Básica</p>
+      <a href="materiais/gramatica.pdf" target="_blank">Baixar Material</a>
+    </div>
+
+    <div class="material-apoio">
+      <h2>Ciências</h2>
+      <p>Experimentos em Laboratório</p>
+      <a href="materiais/experimentos.pdf" target="_blank">Ver Experimentos</a>
+    </div>
+  </div>
+      </div>
+
+      <div id="chat" class="lista">
+        <div class="chat-container">
+    <div class="chat-box">
+      <div class="message received">
+        <p>Olá! Como posso ajudar você hoje?</p>
+      </div>
+      <div class="message sent">
+        <p>Olá! Estou procurando informações sobre os cursos oferecidos.</p>
+      </div>
+      <!-- Adicione mais mensagens aqui -->
+    </div>
+
+    <div class="input-box">
+      <input type="text" placeholder="Digite sua mensagem...">
+      <button>Enviar</button>
+    </div>
+  </div>
+      </div>
+
+      <div id="forum" class="lista">
+        <div class="forum-post">
+      <h2>Título do Tópico</h2>
+      <p class="author">Autor: John Doe</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor justo nec urna consectetur, a aliquet odio cursus.</p>
+      <a href="#" class="button">Comentar</a>
+    </div>
+
+    <div class="forum-post">
+      <h2>Outro Tópico</h2>
+      <p class="author">Autor: Jane Doe</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor justo nec urna consectetur, a aliquet odio cursus.</p>
+      <a href="#" class="button">Comentar</a>
+    </div>
+      </div>
+
+      <div id="reportar" class="lista">
+         <div class="container-report">
+    <h1>Relatar Incidente Escolar</h1>
+
+    <form>
+      <label for="tipo">Tipo de Incidente:</label>
+      <select id="tipo" name="tipo" required>
+        <option value="bullying">Bullying</option>
+        <option value="agressao">Agressão</option>
+        <option value="furtos">Furtos</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <label for="descricao">Descrição do Incidente:</label>
+      <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+      <label for="local">Local do Incidente:</label>
+      <input type="text" id="local" name="local" required>
+
+      <button type="submit">Enviar Relatório</button>
+    </form>
+  </div>
+      </div>
+
+
+      
+    </section>  
+    <script src="js/perfil.js"></script>
+  </body>
+</html>
